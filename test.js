@@ -53,7 +53,7 @@ function onClick(event) {
     return;
   } else if (historyO.length + historyX.length === 9) {
     setTimeout(function () {
-      alert(`There is no winner!Try again 🤷‍♂️`);
+      alert(`There is no winner! Try again 🤷‍♂️`);
     }, 300);
     setTimeout(function () {
       resetGame();
